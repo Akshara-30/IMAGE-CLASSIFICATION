@@ -1,8 +1,8 @@
 import numpy as np
-mport pandas as pd 
+import pandas as pd 
 from matlibplot import pyplot as plt
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.Cross-Validation import train_test-split
+from sklearn.Cross-Validation import train_test_split
 data=pd.read_csv('mnist.csv')
 data.head()
 a=data.iloc[3,1:].values
